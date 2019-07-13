@@ -1,4 +1,5 @@
-<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -18,29 +19,13 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body id="top">
     <!-- preloader area start -->
-
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
     <!-- prealoader area end -->
     <!-- header area start -->
     <header>
@@ -57,7 +42,7 @@
                             <nav class="nav-menu">
                                 <ul id="nav_menu">
                                     <li class="active"><a data-hover="home" href="#home"><span>Home</span></a></li>
-                                    <li class=""><a data-hover="about" href="#about"><span>About</span></a></li>
+                                    <li><a data-hover="about" href="#about"><span>About</span></a></li>
                                     <li><a data-hover="portfolio" href="#portfolio"><span>Portfolio</span></a></li>
                                     <li><a data-hover="contact" href="#contact"><span>Contact</span></a></li>
                                 </ul>
@@ -65,16 +50,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 d-block d-md-none">
-                        <div class="responsive-menu-wrap">
-                            <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a>
-                                <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                                    <li class="active"><a data-hover="home" href="#home" role="menuitem" tabindex="-1"><span>Home</span></a></li>
-                                    <li><a data-hover="about" href="#about" role="menuitem" tabindex="-1"><span>About</span></a></li>
-                                    <li><a data-hover="portfolio" href="#portfolio" role="menuitem" tabindex="-1"><span>Portfolio</span></a></li>
-                                    <li><a data-hover="contact" href="#contact" role="menuitem" tabindex="-1"><span>Contact</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <div class="responsive-menu-wrap"></div>
                     </div>
                 </div>
             </div>
@@ -82,51 +58,61 @@
     </header>
     <!-- header area end -->
     <!-- slider area start -->
-    <section id="home" class="slider-area parallax" data-speed="3" data-bg-image="assets/img/bg/slider-bg.jpg" style="background-image: url(&quot;assets/img/bg/slider-bg.jpg&quot;); background-position: 50% 0px; background-size: cover;">
+    <section id="home" class="slider-area parallax" data-speed="3" data-bg-image="assets/img/bg/slider-bg.jpg">
         <div class="container">
             <div class="slider-content">
-                <h4 class="txtanim1 delay1" style="overflow: hidden;">
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">N</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">e</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">v</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">e</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">r</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;"> </span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">s</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">e</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">t</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">t</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">l</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">e</span>
-                    <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">.</span>
+                <h4 class="txtanim1 delay1">
+                    <span>N</span>
+                    <span>e</span>
+                    <span>v</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span> </span>
+                    <span>s</span>
+                    <span>e</span>
+                    <span>t</span>
+                    <span>t</span>
+                    <span>l</span>
+                    <span>e</span>
+                    <span>.</span>
                 </h4>
             </div>
         </div>
         <div class="white_svg svg_white">
             <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
-                <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
             </svg>
         </div>
-        <div class="txtanim1 next-section" style="overflow: hidden;">
-            <span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0s;"><a href="#about">about me <strong><i class="fa fa-question-circle"></i></strong></a></span>
+        <div class="txtanim1 next-section">
+            <span><a href="#about">about me <strong><i class="fa fa-question-circle"></i></strong></a></span>
         </div>
     </section>
     <!-- slider area end -->
     <!-- about area strat -->
-
-    <!-- about area end -->
-    <!-- service area start -->
-
-    <!-- service area end -->
-    <!-- portfolio area start -->
-
     <!-- portfolio area end -->
     <!-- contact area start -->
-
     <!-- contact area end -->
     <!-- footer area start -->
     <footer>
+        <div class="footer-area bg-gray">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="flogo">
 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-8">
+                        <div class="copyright">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="go-to-top">
+                    <a href="#top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- footer area end -->
     <!-- jquery latest version -->
@@ -140,8 +126,6 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/scripts.js"></script>
-
-
 </body>
 
 </html>
